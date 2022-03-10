@@ -15,7 +15,7 @@ const Map = () => {
     return (
         <div className={mergeClasses.mapContainer}>
             <GoogleMapReact
-                bootstrapURLKeys={{ key: 'AIzaSyBjSAccY8-NDHhIsaJHTsNguNZ-bP9AgJA' }}
+                //bootstrapURLKeys={{ key: <GoogleAPIKey> }}
                 defaultCenter={coords}
                 center={coords}
                 defaultZoom={14}
